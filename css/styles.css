@@ -1,0 +1,282 @@
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.feature-p{
+  color: #8f8f8f;
+  font-size: 1.1rem;
+}
+
+.lol{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 1000;
+  padding-top: 2rem;
+}
+
+.container-fluid{
+  padding: 8% 15%;
+  padding-top: 4rem;
+}
+
+body{
+  font-family: "Montserrat";
+}
+
+.navbar{
+  padding-bottom: 0px;
+  background-color: #ff4c68;
+  padding-left: 0px;
+}
+
+.nav-link {
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 80;
+    font-size: 1.2rem;
+}
+
+/* Company logo name change */
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 2.5rem;
+  margin-right: 24rem;
+  }
+}
+
+.nav-item{
+  padding-right: 20px;
+}
+
+.download-button1{
+  margin-top: 5rem;
+  margin-right: 2rem;
+}
+
+.download-button2{
+  margin-top: 5rem;
+  margin-right: 2rem;
+}
+
+
+.dogpic{
+  width: 60%;
+  transform: rotate(30deg);
+  position: absolute;
+  right: 11rem;
+  top: 1rem;
+}
+
+/* feature */
+#features{
+  padding: 8% 15%;
+  background-color: white;
+  z-index: 1;
+  position: relative;
+}
+
+.feature-heading{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+
+.fa-check-circle{
+  color: #ef8172;
+}
+
+.fa-check-circle:hover{
+  color: #ff4c68;
+}
+
+.fa-bullseye{
+  color: #ef8172;
+}
+
+.fa-bullseye:hover{
+  color: #ff4c68;
+}
+
+.fa-heart{
+  color: #ef8172;
+}
+
+.fa-heart:hover{
+  color: #ff4c68;
+}
+
+.feature-bundle1{
+  text-align: center;
+}
+
+.feature-bundle2{
+  text-align: center;
+}
+
+.feature-bundle3{
+  text-align: center;
+}
+
+/* testimonial */
+#testimonials{
+  padding: 2% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+h2{
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 5rem;
+}
+
+.testipic{
+  border-radius: 50rem;
+  height: 5rem;
+  width: 5rem;
+}
+
+#press{
+  background-color: #ff4c68;
+}
+
+.p1{
+  margin: 2rem 4.5rem 1.5rem;
+  width: 14rem;
+}
+
+.carousel-item:hover{
+  color: #563D7C;
+}
+
+.carousel-control-prev-icon:hover{
+  background-color: red;
+}
+
+.carousel-control-next-icon:hover{
+  background-color: red;
+}
+
+.card-deck{
+  margin-right: 15rem;
+  margin-left: 15rem;
+}
+
+.before-card{
+  font-family: "Ubuntu";
+  text-align: center;
+}
+
+.before-deck{
+  font-family: "Ubuntu";
+  text-align: center;
+}
+
+.card1{
+  position: relative;
+  margin-right: 3rem;
+  width: 20rem;
+}
+
+.card2{
+  position: relative;
+  margin-right: 3rem;
+  width: 20rem;
+}
+
+.card3{
+  position: relative;
+  margin-right: 2rem;
+  width: 20rem;
+}
+
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding-top: 4rem;
+}
+
+.hmm{
+  font-family: "Montserrat";
+  color: white;
+  font-weight: bolder;
+  font-size: 3rem;
+  width: 800px;
+  margin-left: 23rem;
+}
+
+.card-deck{
+  margin-left: 14rem;
+  margin-right: 13rem;
+  width: 1088px;
+}
+
+#footer{
+  background-color: white;
+}
+
+.footy{
+  text-align: center;
+}
+
+.one{
+    margin-right: 1rem;
+}
+
+.two{
+    margin-right: 1rem;
+}
+
+.three{
+    margin-right: 1rem;
+}
+/* start of medium tablet styles */
+
+@media (max-width: 770px)
+{
+  .lol
+  {
+    text-align: center;
+  }
+  .navbar{
+    padding-bottom: 1rem;
+  }
+  .container-fluid{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 100%;
+  }
+  .dogpic{
+    width: 60%;
+    transform: rotate(30deg);
+    position: absolute;
+    right: 6rem;
+    top: 4.5rem;
+  }
+  .download-button1{
+    margin-left: 18%;
+  }
+  .download-button1{
+    margin-right: 18%;
+  }
+  .carousel-control-prev-icon{
+    position: relative;
+    background-color: red;
+    right: 5rem;
+  }
+
+  .carousel-control-next-icon{
+    position: relative;
+    background-color: red;
+    left: 5rem;
+  }
+
+}
